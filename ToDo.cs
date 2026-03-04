@@ -2,7 +2,7 @@
 public class ToDo
 {
     // Add your code here
-    public string MarkAsDone(string todos){
+    public string[] MarkAsDone(string[] todos){
 
         for (int i = 0; i < todos.Length; i++){
             todos[i] = "done - " + todos[i];
